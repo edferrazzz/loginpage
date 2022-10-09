@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url("img/bgimagem.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftpanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 420px;
+    background: linear-gradient(141.3deg, #15728F 22.24%, #26158F 91.21%);
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px 0px 0px 23px;
+    text-align: right;
+}
+
+#astronautadiv {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+#astronauta {
+    width: 243px;
+    height: 194px;
+}
+
+#lefttop {
+    height: 25%;
+    width: 100%;
+    text-align: right;
+}
+
+#h1left {
+    margin-top: 10%;
+    height: auto;
+    margin-right: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+#h2left {
+    height: auto;
+    margin-right: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #89D8FA;
+}
+
+#leftbot {
+    width: 100%;
+    height: 25%;
+}
+
+#login {
+    padding: 10%;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#linklogin {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.rightpanel {
+    width: 350px;
+    height: 420px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px 0px 0px 23px;
+    background: #FFFFFF;
+    border-radius: 0px 23px 23px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#righttop {
+    height: 15%;
+    margin-top: 10%;
+    width: 100%;
+}
+
+#h1right {
+    margin-left: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #15728F;
+}
+
+#infobox {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#userbox {
+    margin-top: 7%;
+    margin-bottom: 4%;
+    width: 288px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#userimg {
+    margin-right: 10px;
+    width: 22px;
+}
+
+#inputuser {
+    color: #0F4C60;
+    width: 80%;
+    height: 100%;
+    background: #fff;
+    border: 0;
+    outline: 0;
+}
+
+#emailbox {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 288px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#emailimg {
+    margin-right: 10px;
+    width: 22px;
+}
+
+#inputemail {
+    color: #0F4C60;
+    width: 80%;
+    border-radius: 15px;
+    height: 100%;
+    background: #FFFFFF;
+    border: 0;
+    outline: 0;
+}
+
+#passbox {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 288px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#passimg {
+    margin-right: 10px;
+    width: 22px;
+}
+
+#inputpass {
+    color: #0F4C60;
+    width: 80%;
+    border-radius: 15px;
+    height: 100%;
+    background: #FFFFFF;
+    border: 0;
+    outline: 0;
+}
+
+#rightbot {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#termos {
+    margin-top: 10%;
+    margin-left: 5px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #15728F;
+}
+
+#linktermos {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #0F4C60;
+}
+
+#aceito {
+    accent-color: #0F4C60;
+}
+
+#rightfooter {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#criarconta {
+    width: 170px;
+    height: 40px;
+    background: linear-gradient(267.72deg, #15728F 2.42%, #429DBA 86.02%);
+    box-shadow: 0px 4px 9px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    outline: none;
+    border: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    color: #b3b3b3;
+}
